@@ -1,0 +1,6 @@
+framework module Pods_Lets_Drink_ {
+  umbrella header "Pods-Lets Drink!-umbrella.h"
+
+  export *
+  module * { export * }
+}

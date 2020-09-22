@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346C9A91E7C9DBF75C96039545D2D5E6 /* Pods-Lets Drink!-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3993A0EE6DF570FF72319274512EF7B2 /* Pods-Lets Drink!-dummy.m */; };
+		37736DA17015BD79765EC0418B8EF229 /* DWAnimatedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E5A818D5C3F7A2DBFD419BEB3E4160 /* DWAnimatedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423B678A7DA2374E4A01E06C8FA745A2 /* Pods-Lets Drink!-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4443D813414EFAD656BC405F68A04EDC /* Pods-Lets Drink!-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A340373B08ED2E77D63CCD7958C5648 /* DWAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203D8C505FC8DDD51C298C83C7D8E14 /* DWAnimator.swift */; };
+		4A9C1BB02A8F937F26478AD29359E304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CA81AF79FEFF4014E705AE23DE6AC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		804E71C76C1FD998C04D4321B059CD51 /* DWAnimatedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8759ABF3CCAD050D03F65607126B8ABB /* DWAnimatedLabel-dummy.m */; };
+		865ADC0589C59BFC1CEF76260E192CD9 /* DWAnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D04AADDD6CAE432A279B6498DA4875 /* DWAnimatedLabel.swift */; };
+		C3FFAB580EB6294FA683AC3A5F5ED261 /* DWAnimatedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C01400CE19C8E54CC18490992384A34 /* DWAnimatedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91D567A84CAAEBEAB43F21D8A797B3F /* DWHollowLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE09479E65C33BFB4D7B663FCFC2D75 /* DWHollowLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FA369EB40ED2424640C824294ED0781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670BD8CE390D7D6DB204EA26D001123B;
+			remoteInfo = DWAnimatedLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0203D8C505FC8DDD51C298C83C7D8E14 /* DWAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DWAnimator.swift; path = DWAnimatedLabelDemo/DWAnimatedLabel/DWAnimator.swift; sourceTree = "<group>"; };
+		0C5B5EA8B8195A37830546001D067A21 /* DWAnimatedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DWAnimatedLabel.modulemap; sourceTree = "<group>"; };
+		1C01400CE19C8E54CC18490992384A34 /* DWAnimatedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWAnimatedLabel.h; path = DWAnimatedLabelDemo/DWAnimatedLabel/DWAnimatedLabel.h; sourceTree = "<group>"; };
+		2E032E18C07E65175D018A502179D2E6 /* Pods-Lets Drink!-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lets Drink!-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3993A0EE6DF570FF72319274512EF7B2 /* Pods-Lets Drink!-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lets Drink!-dummy.m"; sourceTree = "<group>"; };
+		3CCE7EB14405F4FDCD7FD94BE80EA76C /* Pods-Lets Drink!-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lets Drink!-acknowledgements.plist"; sourceTree = "<group>"; };
+		4443D813414EFAD656BC405F68A04EDC /* Pods-Lets Drink!-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lets Drink!-umbrella.h"; sourceTree = "<group>"; };
+		45B1FA440F67A3032FD6AB59A66B9C61 /* DWAnimatedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWAnimatedLabel.debug.xcconfig; sourceTree = "<group>"; };
+		4AAFB9D0F456C73921CEFC5AE4C44729 /* Pods-Lets Drink!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lets Drink!.release.xcconfig"; sourceTree = "<group>"; };
+		4E0EC0BC1FBCF83A40D0E5954C49F46A /* DWAnimatedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWAnimatedLabel-prefix.pch"; sourceTree = "<group>"; };
+		6B1E9EDFBCF7544B33F6FC02F5DD831D /* DWAnimatedLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DWAnimatedLabel-Info.plist"; sourceTree = "<group>"; };
+		76932963EC5629714C537C5E2CE890B9 /* Pods_Lets_Drink_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lets_Drink_.framework; path = "Pods-Lets Drink!.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DABED909AB79FB7C2FE9C65A4EA6EB7 /* Pods-Lets Drink!-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lets Drink!-Info.plist"; sourceTree = "<group>"; };
+		8759ABF3CCAD050D03F65607126B8ABB /* DWAnimatedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWAnimatedLabel-dummy.m"; sourceTree = "<group>"; };
+		8A1C832AD7EA9EB3A0D91BEBECB45D86 /* DWAnimatedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWAnimatedLabel.release.xcconfig; sourceTree = "<group>"; };
+		9BE09479E65C33BFB4D7B663FCFC2D75 /* DWHollowLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DWHollowLabel.swift; path = DWAnimatedLabelDemo/DWAnimatedLabel/DWHollowLabel.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D04AADDD6CAE432A279B6498DA4875 /* DWAnimatedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DWAnimatedLabel.swift; path = DWAnimatedLabelDemo/DWAnimatedLabel/DWAnimatedLabel.swift; sourceTree = "<group>"; };
+		A5E5A818D5C3F7A2DBFD419BEB3E4160 /* DWAnimatedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWAnimatedLabel-umbrella.h"; sourceTree = "<group>"; };
+		B454F256299786D81A39A6034EFCC7A5 /* Pods-Lets Drink!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lets Drink!.debug.xcconfig"; sourceTree = "<group>"; };
+		C1790B6034C418D30725A46F4F13EA6C /* Pods-Lets Drink!-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lets Drink!-frameworks.sh"; sourceTree = "<group>"; };
+		C5B3AA7481F2E2A217DB5A89EE960395 /* DWAnimatedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DWAnimatedLabel.framework; path = DWAnimatedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE36CD06F9B16D2F8CD4176C45D7F175 /* Pods-Lets Drink!.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lets Drink!.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3B13D9B0B05B8340D5AE1E62BA5634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9C1BB02A8F937F26478AD29359E304 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF235AEFBE1DE01F2AB48FFA8E24FDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA81AF79FEFF4014E705AE23DE6AC74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D77DD2E630DF84B8D0B4649F5900DF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D50DECFD5BB572ED9DB83212D70E7026 /* DWAnimatedLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83B1A0F565A49267660A876A7B221C24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C5B5EA8B8195A37830546001D067A21 /* DWAnimatedLabel.modulemap */,
+				8759ABF3CCAD050D03F65607126B8ABB /* DWAnimatedLabel-dummy.m */,
+				6B1E9EDFBCF7544B33F6FC02F5DD831D /* DWAnimatedLabel-Info.plist */,
+				4E0EC0BC1FBCF83A40D0E5954C49F46A /* DWAnimatedLabel-prefix.pch */,
+				A5E5A818D5C3F7A2DBFD419BEB3E4160 /* DWAnimatedLabel-umbrella.h */,
+				45B1FA440F67A3032FD6AB59A66B9C61 /* DWAnimatedLabel.debug.xcconfig */,
+				8A1C832AD7EA9EB3A0D91BEBECB45D86 /* DWAnimatedLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DWAnimatedLabel";
+			sourceTree = "<group>";
+		};
+		A35F3F2CD8B4A20D54C8BEBE4922636C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3AA7481F2E2A217DB5A89EE960395 /* DWAnimatedLabel.framework */,
+				76932963EC5629714C537C5E2CE890B9 /* Pods_Lets_Drink_.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02CD312563A495BAC8543B03A59DA30 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0418994047FA55947D3BFC7E28A6E45 /* Pods-Lets Drink! */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0418994047FA55947D3BFC7E28A6E45 /* Pods-Lets Drink! */ = {
+			isa = PBXGroup;
+			children = (
+				DE36CD06F9B16D2F8CD4176C45D7F175 /* Pods-Lets Drink!.modulemap */,
+				2E032E18C07E65175D018A502179D2E6 /* Pods-Lets Drink!-acknowledgements.markdown */,
+				3CCE7EB14405F4FDCD7FD94BE80EA76C /* Pods-Lets Drink!-acknowledgements.plist */,
+				3993A0EE6DF570FF72319274512EF7B2 /* Pods-Lets Drink!-dummy.m */,
+				C1790B6034C418D30725A46F4F13EA6C /* Pods-Lets Drink!-frameworks.sh */,
+				7DABED909AB79FB7C2FE9C65A4EA6EB7 /* Pods-Lets Drink!-Info.plist */,
+				4443D813414EFAD656BC405F68A04EDC /* Pods-Lets Drink!-umbrella.h */,
+				B454F256299786D81A39A6034EFCC7A5 /* Pods-Lets Drink!.debug.xcconfig */,
+				4AAFB9D0F456C73921CEFC5AE4C44729 /* Pods-Lets Drink!.release.xcconfig */,
+			);
+			name = "Pods-Lets Drink!";
+			path = "Target Support Files/Pods-Lets Drink!";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3D77DD2E630DF84B8D0B4649F5900DF6 /* Pods */,
+				A35F3F2CD8B4A20D54C8BEBE4922636C /* Products */,
+				B02CD312563A495BAC8543B03A59DA30 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50DECFD5BB572ED9DB83212D70E7026 /* DWAnimatedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1C01400CE19C8E54CC18490992384A34 /* DWAnimatedLabel.h */,
+				A4D04AADDD6CAE432A279B6498DA4875 /* DWAnimatedLabel.swift */,
+				0203D8C505FC8DDD51C298C83C7D8E14 /* DWAnimator.swift */,
+				9BE09479E65C33BFB4D7B663FCFC2D75 /* DWHollowLabel.swift */,
+				83B1A0F565A49267660A876A7B221C24 /* Support Files */,
+			);
+			name = DWAnimatedLabel;
+			path = DWAnimatedLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5447AECAA4AB77DC6E5C93B388B18492 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423B678A7DA2374E4A01E06C8FA745A2 /* Pods-Lets Drink!-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D6DC0981DA1FD9F05FF963360EB530 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37736DA17015BD79765EC0418B8EF229 /* DWAnimatedLabel-umbrella.h in Headers */,
+				C3FFAB580EB6294FA683AC3A5F5ED261 /* DWAnimatedLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		670BD8CE390D7D6DB204EA26D001123B /* DWAnimatedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B15DDDD6D4EE4ACADA02A157E8DEBC /* Build configuration list for PBXNativeTarget "DWAnimatedLabel" */;
+			buildPhases = (
+				87D6DC0981DA1FD9F05FF963360EB530 /* Headers */,
+				40C74E5E6ED511A935877B866AC1D7C0 /* Sources */,
+				AF235AEFBE1DE01F2AB48FFA8E24FDA8 /* Frameworks */,
+				7E4545B7455E526478B62366E70AB3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWAnimatedLabel;
+			productName = DWAnimatedLabel;
+			productReference = C5B3AA7481F2E2A217DB5A89EE960395 /* DWAnimatedLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C468D103933F33E98390B0F549A9199 /* Pods-Lets Drink! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755DC31640B113BA3C63A96A895C74C3 /* Build configuration list for PBXNativeTarget "Pods-Lets Drink!" */;
+			buildPhases = (
+				5447AECAA4AB77DC6E5C93B388B18492 /* Headers */,
+				387E855BABAE0C49DCE4DFF87C93A205 /* Sources */,
+				4F3B13D9B0B05B8340D5AE1E62BA5634 /* Frameworks */,
+				66959D628948BD846A3CC9EAFADFD2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A349BAACD3EA10A72B64C91166D11B /* PBXTargetDependency */,
+			);
+			name = "Pods-Lets Drink!";
+			productName = "Pods-Lets Drink!";
+			productReference = 76932963EC5629714C537C5E2CE890B9 /* Pods_Lets_Drink_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A35F3F2CD8B4A20D54C8BEBE4922636C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670BD8CE390D7D6DB204EA26D001123B /* DWAnimatedLabel */,
+				9C468D103933F33E98390B0F549A9199 /* Pods-Lets Drink! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66959D628948BD846A3CC9EAFADFD2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4545B7455E526478B62366E70AB3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387E855BABAE0C49DCE4DFF87C93A205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346C9A91E7C9DBF75C96039545D2D5E6 /* Pods-Lets Drink!-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C74E5E6ED511A935877B866AC1D7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E71C76C1FD998C04D4321B059CD51 /* DWAnimatedLabel-dummy.m in Sources */,
+				865ADC0589C59BFC1CEF76260E192CD9 /* DWAnimatedLabel.swift in Sources */,
+				4A340373B08ED2E77D63CCD7958C5648 /* DWAnimator.swift in Sources */,
+				C91D567A84CAAEBEAB43F21D8A797B3F /* DWHollowLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A349BAACD3EA10A72B64C91166D11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DWAnimatedLabel;
+			target = 670BD8CE390D7D6DB204EA26D001123B /* DWAnimatedLabel */;
+			targetProxy = 8FA369EB40ED2424640C824294ED0781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0257C2801E03858D1E3DCE93EC10A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAFB9D0F456C73921CEFC5AE4C44729 /* Pods-Lets Drink!.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lets Drink!/Pods-Lets Drink!-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lets Drink!/Pods-Lets Drink!.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0819330A5EC2FFE3265484C14D0DF6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B1FA440F67A3032FD6AB59A66B9C61 /* DWAnimatedLabel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DWAnimatedLabel/DWAnimatedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DWAnimatedLabel/DWAnimatedLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DWAnimatedLabel/DWAnimatedLabel.modulemap";
+				PRODUCT_MODULE_NAME = DWAnimatedLabel;
+				PRODUCT_NAME = DWAnimatedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27761FECD621F91304A9C4F51E243442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1C832AD7EA9EB3A0D91BEBECB45D86 /* DWAnimatedLabel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DWAnimatedLabel/DWAnimatedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DWAnimatedLabel/DWAnimatedLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DWAnimatedLabel/DWAnimatedLabel.modulemap";
+				PRODUCT_MODULE_NAME = DWAnimatedLabel;
+				PRODUCT_NAME = DWAnimatedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55CAF123E46D1DC8E973A8D91F1D24B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B454F256299786D81A39A6034EFCC7A5 /* Pods-Lets Drink!.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lets Drink!/Pods-Lets Drink!-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lets Drink!/Pods-Lets Drink!.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B15DDDD6D4EE4ACADA02A157E8DEBC /* Build configuration list for PBXNativeTarget "DWAnimatedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0819330A5EC2FFE3265484C14D0DF6DE /* Debug */,
+				27761FECD621F91304A9C4F51E243442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755DC31640B113BA3C63A96A895C74C3 /* Build configuration list for PBXNativeTarget "Pods-Lets Drink!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CAF123E46D1DC8E973A8D91F1D24B1 /* Debug */,
+				0257C2801E03858D1E3DCE93EC10A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
